@@ -570,6 +570,10 @@ li{
 	width:33.32%;
 }
 
+.desktop-display{
+	display: none;
+}
+
 .news-subs{
 	text-align: center;
 	background-image: url("../images/sub-bg.png");
@@ -616,10 +620,9 @@ li{
 	float: left;
 }
 
-.page-widget-element{
-	background-image: url("../images/plus-logo.png");
-	background-repeat: no-repeat;
-	background-position: 90% 11%;
+.icon-container{
+	float: right;
+	margin-right: 10px;
 }
 
 .pg-logo{
@@ -654,7 +657,7 @@ li{
 
 .pg-first-row{
 	margin-left: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 
@@ -1568,6 +1571,10 @@ li{
 		width: 100%;
 		text-align: center;
 	}
+
+.desktop-display{
+	display: block;
+}
 
 	/*footer styles*/
 

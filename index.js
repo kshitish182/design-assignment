@@ -1,6 +1,6 @@
 let hamBurger = document.getElementById('hamburger');
 let burgerButton = document.getElementById('burgerButton');
-let 
+
 
 
 burgerButton.addEventListener('click', event => {
