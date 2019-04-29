@@ -623,6 +623,7 @@ li{
 .icon-container{
 	float: right;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .pg-logo{
@@ -657,7 +658,6 @@ li{
 
 .pg-first-row{
 	margin-left: 15px;
-	margin-bottom: 15px;
 }
 
 
@@ -764,7 +764,7 @@ li{
 }
 
 .list-inner-element-container{
-	display: block;
+	display: none;
 	border-top: 1px solid #757575;
 	font-size: 14px;
 	padding-top: 10px;
