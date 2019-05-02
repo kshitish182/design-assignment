@@ -14,6 +14,14 @@ a{
 	display: inline-block;
 }
 
+button{
+	cursor: pointer;
+}
+
+button:focus{
+	outline: none;
+}
+
 .header{
 	position: relative;
 	color: white;
@@ -799,18 +807,27 @@ li{
 		display: block;
 		padding: 10px 6px 15px 0;
 		float: right;
+		background-color: transparent;
+		border : transparent;
+		cursor: pointer;
 	}
 
 	.nav-bar__wishlist-icon{
 		display: block;
 		padding: 10px 10px 15px 0;
 		float: right;
+		background-color: transparent;
+		border : transparent;
+		cursor: pointer;
 	}
 
 	.nav-bar__cart-icon{
 		display: block;
 		padding: 17px 30px 15px 0;
 		float: right;
+		background-color: transparent;
+		border : transparent;
+		cursor: pointer;
 	}
 
 	.image-container{
@@ -959,8 +976,14 @@ li{
 	}
 
 	.category-element-container{
-		padding: 15px;
+		padding: 0 15px;
 		border-bottom: 1px solid #ebeae9;
+	}
+
+	.category-element-container a {
+		width: 100%;
+		color: black;
+		padding: 15px 0;
 	}
 
 	.category-content{
@@ -971,7 +994,7 @@ li{
 
 	.category-amount{
 		float: right;
-		margin-left: 200px;
+		margin-left: 0px;
 		font-weight: bold;
 	}
 
@@ -1466,7 +1489,7 @@ li{
 	}
 
 	.category-amount{
-		margin-left: 160px;
+		margin-left: 0px;
 	}
 
 	.subscribtion-container{
@@ -1495,7 +1518,7 @@ li{
 	}
 
 	.category-element-container{
-		padding: 15px 0;
+		padding:0;
 	}
 
 	.post-button{

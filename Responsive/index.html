@@ -78,15 +78,15 @@
 				<button class="nav-bar__burger-icon" id="burgerButton">
 					<img src="images/menu.png" alt="burger-icon">
 				</button>
-				<div class="nav-bar__cart-icon">
+				<button class="nav-bar__cart-icon">
 					<img src="images/shopping-cart.png" alt="burger-icon">
-				</div>
-				<div class="nav-bar__wishlist-icon divider-class">
+				</button>
+				<button class="nav-bar__wishlist-icon divider-class">
 					<img src="images/heart-icon.png" alt="burger-icon">
-				</div>
-				<div class="nav-bar__search-icon divider-class">
+				</button>
+				<button class="nav-bar__search-icon divider-class">
 					<img src="images/search-icon.png" alt="burger-icon">
-				</div>
+				</button>
 			</nav>
 			<div class="header-txt-wrapper">
 				<button class="header-txt__left-arrow">
@@ -97,7 +97,7 @@
 				</button>
 				<div class="header-txt__tag">Insipiration</div>
 				<h1 class="header-txt__header">5 ways millennials can start Building their future today</h1>
-				<button class="header-txt__button"><a href="#" title='read more'>READ MORE</a></button>
+				<button class="header-txt__button">READ MORE</button>
 				<div class="header-txt-wrapper__usr-profile">
 					<a class="profile-pic" href="#" title='profile'>
 						<img src="images/header-profilepic.png" alt="profile-pic">
@@ -137,13 +137,13 @@
 	<div class="sort-bar">
 		<div class="container clearfix">
 			<span class="nav-bar-txt">SORT BY:</span>
-			<form class="button-container">
-				<input type="button" class="sort-button" value="ALL">
-				<input type="button" class="sort-button" value="PHOTOGRAPHY">
-				<input type="button" class="sort-button" value="LIFESTYLE">
-				<input type="button" class="sort-button" value="TRIP">
-				<input type="button" class="sort-button" value="INSIPIRATION">
-			</form>
+			<div class="button-container">
+				<button class="sort-button" >ALL</button>
+				<button class="sort-button" >PHOTOGRAPHY</button>
+				<button class="sort-button" >LIFESTYLE</button>
+				<button class="sort-button" >TRIP</button>
+				<button class="sort-button" >INSPIRATION</button>
+			</div>
 		</div>
 	</div>
 	<main class="main-class">
@@ -492,46 +492,56 @@
 						<h2 class="tab-post-heading">CATEGORIES</h2>
 						<ul class="category-element-list">
 						<li class="category-element-container clearfix">
-							<div class = "category-content">
-								Photography
-							</div>
-							<div class = "category-amount">
-								193
-							</div>
+							<a href="#" title="Photography">
+								<div class = "category-content">
+									Photography
+								</div>
+								<div class = "category-amount">
+									193
+								</div>
+							</a>
 						</li>
 						<li class="category-element-container clearfix">
-							<div class = "category-content">
-								Photography
-							</div>
-							<div class = "category-amount">
-								193
-							</div>
+							<a href="#" title="Illusration">
+								<div class = "category-content">
+									Illustration
+								</div>
+								<div class = "category-amount">
+									15
+								</div>
+							</a>
 						</li>
 						<li class="category-element-container clearfix">
-							<div class = "category-content">
-								Photography
-							</div>
-							<div class = "category-amount">
-								193
-							</div>
+							<a href="#" title = "Graphic design">
+								<div class = "category-content">
+									Graphic Design
+								</div>
+								<div class = "category-amount">
+									36
+								</div>
+							</a>
 						</li>
 						<li class="category-element-container clearfix">
-							<div class = "category-content">
-								Photography
-							</div>
-							<div class = "category-amount">
-								193
-							</div>
+							<a href = "#" title ="Web Design">
+								<div class = "category-content">
+									Web Design
+								</div>
+								<div class = "category-amount">
+									220
+								</div>
+							</a>
 						</li>
 						<li class="category-element-container clearfix">
-							<div class = "category-content">
-								Photography
-							</div>
-							<div class = "category-amount">
-								193
-							</div>
+							<a href="#" title="Videography">
+								<div class = "category-content">
+									Videography
+								</div>
+								<div class = "category-amount">
+									17
+								</div>
+							</a>
 						</li>
-						</ul>
+					</ul>
 					</div>
 					<div class="subscribtion-container">
 						<h2 class="tab-post-heading">SUBSCRIBE</h2>
@@ -545,12 +555,12 @@
 						<div class="or-container">
 							<span class='or-class'>or</span>
 							<div class="sub-icon-container">
-								<img class="sub-icon" alt="social icon" src="images/icon1.png">
-								<img class="sub-icon" alt="social icon" src="images/icon2.png">
-								<img class="sub-icon" alt="social icon" src="images/icon3.png">
-								<img class="sub-icon" alt="social icon" src="images/icon4.png">
-								<img class="sub-icon" alt="social icon" src="images/icon5.png">
-								<img class="sub-icon" alt="social icon" src="images/icon6.png">
+								<a href="#" title="facebook"><img class="sub-icon" alt="social icon" src="images/icon1.png"></a>
+								<a href="#" title="twitter"><img class="sub-icon" alt="social icon" src="images/icon2.png"></a>
+								<a href="#" title="vkontakte"><img class="sub-icon" alt="social icon" src="images/icon3.png"></a>
+								<a href="#" title="pintrest"><img class="sub-icon" alt="social icon" src="images/icon4.png"></a>
+								<a href="#" title="tumblr"><img class="sub-icon" alt="social icon" src="images/icon5.png"></a>
+								<a href="#" title="dribble"><img class="sub-icon" alt="social icon" src="images/icon6.png"></a>
 							</div>
 						</div>
 					</div>
@@ -713,46 +723,56 @@
 				<div class="category-container">
 					<h2 class="tab-post-heading">CATEGORIES</h2>
 					<ul class="category-element-list">
-					<li class="category-element-container clearfix">
-						<div class = "category-content">
-							Photography
-						</div>
-						<div class = "category-amount">
-							193
-						</div>
-					</li>
-					<li class="category-element-container clearfix">
-						<div class = "category-content">
-							Photography
-						</div>
-						<div class = "category-amount">
-							193
-						</div>
-					</li>
-					<li class="category-element-container clearfix">
-						<div class = "category-content">
-							Photography
-						</div>
-						<div class = "category-amount">
-							193
-						</div>
-					</li>
-					<li class="category-element-container clearfix">
-						<div class = "category-content">
-							Photography
-						</div>
-						<div class = "category-amount">
-							193
-						</div>
-					</li>
-					<li class="category-element-container clearfix">
-						<div class = "category-content">
-							Photography
-						</div>
-						<div class = "category-amount">
-							193
-						</div>
-					</li>
+						<li class="category-element-container clearfix">
+							<a href="#" title="Photography">
+								<div class = "category-content">
+									Photography
+								</div>
+								<div class = "category-amount">
+									193
+								</div>
+							</a>
+						</li>
+						<li class="category-element-container clearfix">
+							<a href="#" title="Illusration">
+								<div class = "category-content">
+									Illustration
+								</div>
+								<div class = "category-amount">
+									15
+								</div>
+							</a>
+						</li>
+						<li class="category-element-container clearfix">
+							<a href="#" title = "Graphic design">
+								<div class = "category-content">
+									Graphic Design
+								</div>
+								<div class = "category-amount">
+									36
+								</div>
+							</a>
+						</li>
+						<li class="category-element-container clearfix">
+							<a href = "#" title ="Web Design">
+								<div class = "category-content">
+									Web Design
+								</div>
+								<div class = "category-amount">
+									220
+								</div>
+							</a>
+						</li>
+						<li class="category-element-container clearfix">
+							<a href="#" title="Videography">
+								<div class = "category-content">
+									Videography
+								</div>
+								<div class = "category-amount">
+									17
+								</div>
+							</a>
+						</li>
 					</ul>
 					<div class="subscribtion-container">
 						<h2 class="tab-post-heading">SUBSCRIBE</h2>
@@ -766,12 +786,12 @@
 						<div class="or-container">
 							<span class='or-class'>or</span>
 							<div class="sub-icon-container">
-								<img class="sub-icon" alt="social icon" src="images/icon1.png">
-								<img class="sub-icon" alt="social icon" src="images/icon2.png">
-								<img class="sub-icon" alt="social icon" src="images/icon3.png">
-								<img class="sub-icon" alt="social icon" src="images/icon4.png">
-								<img class="sub-icon" alt="social icon" src="images/icon5.png">
-								<img class="sub-icon" alt="social icon" src="images/icon6.png">
+								<a href="#" title="facebook"><img class="sub-icon" alt="social icon" src="images/icon1.png"></a>
+								<a href="#" title="twitter"><img class="sub-icon" alt="social icon" src="images/icon2.png"></a>
+								<a href="#" title="vkontakte"><img class="sub-icon" alt="social icon" src="images/icon3.png"></a>
+								<a href="#" title="pintrest"><img class="sub-icon" alt="social icon" src="images/icon4.png"></a>
+								<a href="#" title="tumblr"><img class="sub-icon" alt="social icon" src="images/icon5.png"></a>
+								<a href="#" title="dribble"><img class="sub-icon" alt="social icon" src="images/icon6.png"></a>
 							</div>
 						</div>
 					</div>
