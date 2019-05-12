@@ -1702,11 +1702,18 @@ li{
   .twitter-widget-container li:last-child{
   	border-bottom: transparent;
   }
+
   .social-widget-container{
 		display: block;
 	}
+
   .social-widget-container img{
   	margin-left: 15px;
+  }
+
+  .social-widget-container button{
+  	border: transparent;
+  	background-color: transparent;
   }
 
   .social-widget-container img:first-child{
