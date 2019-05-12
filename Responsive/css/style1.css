@@ -44,7 +44,7 @@ button:focus{
 	clear: both;
 }
 
-.image-container{
+.social-icon-signin-block{
 	display: none;
 }
 
@@ -830,7 +830,7 @@ li{
 		cursor: pointer;
 	}
 
-	.image-container{
+	.social-icon-signin-block{
 		display: none;
 	}
 
@@ -1072,10 +1072,11 @@ li{
 
 	.page-widget-container{
 		float: left;
+		width: 45%;
 	}
 
 	.twitter-widget-container{
-		float: left;
+		float: right;
 		width: 50%;
 		margin-left: 30px;
 	}
@@ -1181,18 +1182,60 @@ li{
 		margin: auto;
 	}	
 
-	.image-container{
+	.social-icon-signin-block{
 		display: block;
 		background-color: #191919;
 		width:100%;
 	}
 
-	.image-collection{
-		max-width: 1170px;
-		margin: auto;
+	.social-icon-container{
+		float:left;
 		padding: 12px 0;
 	}
 
+	.social-icon-signin-block button{
+		background-color: transparent;
+		border: transparent;
+	}
+
+	.header-lang-signin-container{
+		float: right;
+		padding: 12px 0;
+		margin-right: 5px;
+		font-size: 12px;
+	}
+
+	.header-lang-signin-container a{
+		text-decoration: none;
+		color: #8c8c8c;
+	}
+
+	.header-lang-signin-container li{
+		display: inline-block;
+		padding-left: 20px;
+		font-family: 'Montserrat', aerial, sans-serif; 
+		color : #8c8c8c;
+	}
+
+	.header-signin-container{
+		background-image: url("../images/signin-icon.png");
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+	}
+
+	.header-lang-container{
+		background-image: url("../images/world-icon.png");
+		background-repeat: no-repeat;
+		background-position: 0 50%;	
+	}
+
+	.signin-divider::after{
+		content : "|" ;
+		font-size: 16px;
+		color: #8c8c8c;
+		margin: 0 10px;
+	}
+	
 	.nav-bar{
 		position: static;
 		background-color: transparent;
@@ -1201,6 +1244,7 @@ li{
 
 	.nav-bar__logo-container{
 		padding: 20px 0 0; 
+		margin: 5px;
 	}
 
 	.nav-bar__logo-container a {
@@ -1576,8 +1620,7 @@ li{
 	}
 
 	.sub-form{
-		margin-left: 40px;
-		float: left;
+		margin-left: 650px;
 	}
 
 	.sub-email{
