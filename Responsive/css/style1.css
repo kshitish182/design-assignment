@@ -668,6 +668,9 @@ li{
 	margin-left: 15px;
 }
 
+.twitter-widget-container a{
+	color: #bdbdbd;
+}
 
 .twitter-widget-content{
 	margin-bottom: 50px;
